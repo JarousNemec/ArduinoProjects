@@ -498,13 +498,10 @@ int heatingStatus() {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int heatingControl() {
   if (heating) {
-    digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
 
   }
   else {
-
-    digitalWrite(7, LOW);
     digitalWrite(8, LOW);
   }
 }
